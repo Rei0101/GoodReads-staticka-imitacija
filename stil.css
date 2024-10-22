@@ -1,0 +1,294 @@
+@font-face {
+    font-family: "Abel";
+    src: url("fontovi/Abel-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+    border-top: orange solid 5px;
+}
+
+nav h2{
+    display: inline;
+    font-family: "Abel";
+}
+
+nav span {
+    font-weight: 100;
+}
+
+#search {
+    border: white 2px solid;
+    display: flex;
+    justify-content: left;
+    margin-right: 150px;
+}
+#search input {
+    border: none;
+    height: 20px;
+    width: 20em;
+}
+#search a {
+    background-color: white;
+}
+#search a img {
+    height: 16px;
+    margin-top: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+nav a:active {
+    color: royalblue;
+}
+
+
+#container{
+    display: flex;
+}
+
+#prvi {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 2;
+    align-items: center;
+    height: 500px;
+}
+#main-cover {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 200px;
+}
+#want {
+    border-radius: 20px;
+    width: fit-content;
+}
+.prvi-b {
+    width: 200px;
+    height: 30px;
+    background-color: #009000;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin:0px;
+    display: inline;
+    float: left;
+    border-width: 1px;
+    color: white;
+}
+.drugi-b {
+    margin:0px;
+    width: 30px;
+    height: 30px;
+    background-color: #249000;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-width: 1px;
+    color: white;
+}
+#buy .prvi-b, #buy .drugi-b {
+    background-color: white;
+    border: 1px solid #009000;
+    color: black;
+}
+#rate img{
+    width: 35px;
+    height: 35px;
+}
+#prvi p {
+    margin: 0;
+}
+
+#drugi {
+    flex: 5;
+    position: relative;
+}
+#drugi * {
+    margin: 10px;
+}
+#share {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    right: 5px;
+}
+#lik{
+    margin-top: 15px;
+    color:gray;
+}
+h1 {
+    margin:0;
+}
+#lik, #autor {
+    font-size: 20px;
+}
+#rating{
+    display: flex;
+    flex-wrap: wrap;
+}
+#rating img{
+    height: 35px;
+    width: 35px;
+}
+#rating p{
+    font-size: 35px;
+}
+#rating span {
+    font-size: 15px;
+    color: gray;
+}
+
+#zanrovi {
+    margin: 10px;
+    font-size: 15px;
+    color: gray;
+}
+#zanrovi span{
+    font-weight: bold;
+    color: black;
+    text-decoration: underline #009000;
+    text-decoration-thickness: 2px;
+}
+.sivo {
+    color: gray;
+    line-height: 23px;
+}
+hr {
+    color:gray;
+}
+
+#reading {
+    display: flex;
+    flex-wrap: wrap;
+}
+#reading .profilne{
+    flex: 1;
+    position: relative;
+    height: 45px;
+}
+.profilne p {
+    position: absolute;
+    left: 70px;
+}
+.prva-s{
+    border: 1px solid black;
+    position:absolute;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    background-image: url(slike/pattern.jfif);
+}
+.druga-s{
+    border: 1px solid black;
+    border-radius: 100%;
+    position: absolute;
+    left: 14px;
+    width: 25px;
+    height: 25px;
+    background-image: url(slike/pattern.jfif);
+}
+.treca-s{
+    border: 1px solid black;
+    border-radius: 100%;
+    position: absolute;
+    left: 28px;
+    width: 25px;
+    height: 25px;
+    background-image: url(slike/pattern.jfif);
+}
+
+#autor-follow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#autor-p{
+    display: flex;
+    flex-wrap: wrap;
+}
+#autor-p div{
+    background-image: url(slike/pattern.jfif);
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+#follow {
+    margin-top: 40px;
+    width:125px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 3;
+    border-radius: 35%;
+}
+.tekst{
+    padding-right: 70px;
+}
+
+#knjige {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+}
+.knjiga{
+    flex: 1;
+    height: 200px;
+    width: 100px;
+    font-size: 10px;
+}
+.knjiga span span{
+    padding-bottom: 75px;
+}
+.knjiga .druge-k {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 150px;
+    
+}
+.zvjez {
+    width: 20px;
+    height: 20px;
+}
+.knjiga{
+    padding-bottom: 150px;
+    padding-right: 50px;
+}
+#resp{
+    margin-top: 50px;
+}
+	
+@media only screen and (max-width: 600px) {
+    #container{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+        height: 350px;
+    }
+    #search{
+        margin: 0%;
+    }
+
+    #prvi *{
+        padding: 5px;
+    }
+
+    
+}
